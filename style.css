@@ -81,14 +81,3 @@ img{max-width:100%}
  .service-actions{gap:8px}
  .request-btn{text-align:right}
 }
-
-/* Keep complete background photos visible on narrow screens */
-@media(max-width:680px){
- .hero-image{background-size:100% auto;background-position:center bottom;background-repeat:no-repeat;background-color:#101820;animation:none}
- .intro-photo{background-size:contain;background-position:center;background-repeat:no-repeat;background-color:#18242c}
- .project-image{background-size:auto,contain;background-position:center,center;background-repeat:no-repeat;background-color:#101820}
- .final-cta{background-size:auto,contain;background-position:center,center;background-repeat:no-repeat;background-color:#101820}
- .footer-main{background-size:auto,contain;background-position:center,center;background-repeat:no-repeat;background-color:#0c1318}
- .story-photo{background-size:100% auto;background-position:center bottom;background-repeat:no-repeat;background-color:#101820;animation:none}
- .story-band-image{background-size:contain;background-position:center;background-repeat:no-repeat;background-color:#18242c}
-}
