@@ -81,3 +81,8 @@ img{max-width:100%}
  .service-actions{gap:8px}
  .request-btn{text-align:right}
 }
+
+/* Keep scrolling page text from showing through the mobile header */
+@media(max-width:680px){
+ .topbar,.topbar.scrolled{background-color:#101820;backdrop-filter:none}
+}
