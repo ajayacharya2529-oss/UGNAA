@@ -332,6 +332,15 @@ img{max-width:100%}
   .service-img { aspect-ratio: 4 / 5; }
   /* Never use fixed background scrolling on mobile browsers. */
   .hero-image,.intro-photo,.industries-photo,.project-image,.final-cta,.footer-main,.story-photo,.story-band-image { background-attachment: scroll; }
+}
+/* Slightly brighten the hero photograph while retaining contrast behind its copy. */
+.hero-shade {
+  background: linear-gradient(90deg,rgba(10,17,22,.90) 0%,rgba(10,17,22,.76) 36%,rgba(10,17,22,.18) 77%,rgba(10,17,22,.24)),linear-gradient(0deg,rgba(10,17,22,.64),transparent 32%);
+}
+@media (max-width: 768px) {
+  .hero-shade {
+    background: linear-gradient(90deg,#0b1117da,#0b111780 74%,#0b111744),linear-gradient(0deg,#0b1117aa,transparent 35%);
+  }
 }</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"UGNAA NDT Service and Laboratory","email":"ugnaa.ndt@gmail.com","telephone":"+91 9241143166","address":{"@type":"PostalAddress","streetAddress":"GA-23, 3rd Floor, City Centre, Sector-4","addressLocality":"Bokaro Steel City","addressRegion":"Jharkhand","addressCountry":"IN"}}</script>
 </head><body>
