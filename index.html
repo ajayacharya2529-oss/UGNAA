@@ -398,10 +398,13 @@ html.lenis.lenis-smooth{scroll-behavior:auto!important}
 .service-actions .request-btn{min-height:44px;padding:10px 14px;background:var(--amber)!important;color:var(--ink)!important;font-size:var(--fs-caption);font-weight:700!important;border:1px solid var(--amber)}
 .service-actions .request-btn:hover{background:#efb65e!important;border-color:#efb65e}
 .clients-heading{text-align:left;margin-left:0;margin-right:0}
-.client-logo img{width:min(100%,360px);height:176px}
-.client-logo:nth-child(1) img{transform:scale(.84)}
-.client-logo:nth-child(4) img{transform:scale(1.12)}
+.client-logo img{width:min(100%,320px);height:150px;max-height:150px;transform:none}
+.intro-grid{grid-template-columns:minmax(0,1fr) minmax(0,.82fr);column-gap:6%}
+.service-actions{column-gap:18px}
+.hero-actions{gap:18px;align-items:flex-start}
+@media(min-width:681px){.steps article{min-height:220px}}
 @media(max-width:580px){.client-logo img{height:136px}}
+@media(max-width:680px){.intro-grid{grid-template-columns:1fr;gap:1rem}.hero-actions{gap:16px;align-items:flex-start}.service-actions{row-gap:12px}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"UGNAA NDT Service and Laboratory","email":"ugnaa.ndt@gmail.com","telephone":"+91 9241143166","address":{"@type":"PostalAddress","streetAddress":"GA-23, 3rd Floor, City Centre, Sector-4","addressLocality":"Bokaro Steel City","addressRegion":"Jharkhand","addressCountry":"IN"}}</script>
 </head><body>
